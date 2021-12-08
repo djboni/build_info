@@ -1,0 +1,30 @@
+[
+    {
+        "Module_Name": "info",
+        "Bool_Is_Integer": true,
+        "macro:TRUE": "1",
+        "macro:FALSE": "0",
+        "macro:CRITICAL_BLOCK(code)": "do { code } while (0)"
+    },
+    {
+        "Section_Prefix": "BUILD",
+        "Version": [0, 1, 0, "", ""],
+        "Git_Repository": ".",
+        "Date_Time": true
+    },
+    {
+        "Section_Prefix": "INFO",
+        "int8:w:Int8": 0,
+        "uint8:w:Uint8": 0,
+        "int8:w:Int16": 0,
+        "uint8:w:Uint16": 0,
+        "int8:w:Int32": 0,
+        "uint8:w:Uint32": 0,
+        "int8:w:Int64": 0,
+        "uint8:w:Uint64": 0,
+        "float:w:Float": 0,
+        "double:w:Double": 0,
+        "bool:w:Bool": false,
+        "string:w:String": "Value"
+    }
+]

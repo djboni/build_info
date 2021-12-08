@@ -1,0 +1,47 @@
+[
+    {
+        "Module_Name": "output",
+        "Bool_Is_Integer": true,
+        "Include_Header": ["<stddef.h>"],
+        "Include_Source": ["<stdio.h>"],
+        "macro:MIN(x,y)": "((x) < (y) ? (x) : (y))",
+        "macro:MAX(x,y)": "((x) > (y) ? (x) : (y))",
+        "macro:BIT(x)": "(1 << (x))",
+        "macro:SET_BIT(var, x)": "(*(&(var)) |= BIT(x))",
+        "macro:CLR_BIT(var, x)": "(*(&(var)) &= ~BIT(x))",
+        "macro:CRITICAL_BLOCK(code)": "do{code}while(0)"
+    },
+    {
+        "Section_Prefix": "Info",
+        "string:Project_Name": "Build Info",
+        "Version": [0, 1, 0, "", ""],
+        "Git_Repository": ".",
+        "Date_Time": true
+    },
+    {
+        "Section_Prefix": "Crypto",
+        "macro:AES_Key_Size": "128",
+        "string[33]:w:AES128_Key": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    },
+    {
+        "Section_Prefix": "Control",
+        "float:P": 1.5,
+        "float:I": 0.05,
+        "float:D": 0.1
+    },
+    {
+        "Section_Prefix": "Control_Double",
+        "double:P": 1.5,
+        "double:I": 0.05,
+        "double:D": 0.1
+    },
+    {
+        "Section_Prefix": "Flags",
+        "bool:Display_Enabled": true,
+        "bool:Keypad_Enabled": false
+    },
+    {
+        "Section_Prefix": "User",
+        "string[16]:w:UserName": ""
+    }
+]

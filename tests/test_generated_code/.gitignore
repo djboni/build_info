@@ -1,0 +1,4 @@
+info.c
+info.h
+*.o
+main
