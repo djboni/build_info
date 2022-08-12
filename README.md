@@ -1,3 +1,10 @@
+# ARCHIVED
+
+The projects below superseed this project.
+
+- [Info](https://github.com/embtool/info)
+- [Toggle](https://github.com/embtool/toggle)
+
 # Build Info
 
 Convert JSON to build information
